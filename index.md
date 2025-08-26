@@ -7,5 +7,5 @@ title: Home
 - Project 2: Description
 ## About Me
 Click here to learn more → [About Me](about.md) [Notebook](notebook.md)
-[About Me](about.md) creates a clickable link to your About page.
+
 
