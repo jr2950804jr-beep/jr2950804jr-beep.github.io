@@ -8,9 +8,9 @@
 ## Flutter Notes
 
 ### What is Flutter?
-- Definition:
+- Definition: A framewprk made by Google for building apps that work on web,Android,and iOS with one codebase.
 - Why is it useful?
-
+- It's useful because you only need to make the page once, instead of having to make 3 different versions.
 ---
 
 ### Key Terms and Definitions
