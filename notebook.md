@@ -17,22 +17,22 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
-
-| Padding    |                    |                     |
-
-| Center      |                    |                     |
+| Widget           | Basic building block of a flutter app.           |  Text,Image,Container,Column              |
+|                  |   Everything is a widget                         |                                           |
+| MaterialApp      | The root of the app. Sets up routes an themes.   |  Found in main.dart                       |
+| Scaffold         | Provides basic visiual layout like header, body  |  Each screeen use it                      |
+|                  |   floating button                                |                                           |
+| StatelessWidget  | A widget that doesn't change                     | Most of the screen files                  |
+| StatefulWidget   | A widget that can change over time               | Used in MyHomePage()                      |
+| Navigator        | Manage screen transitions                        | Navigator.pushNamed(context, '/page2');   |
+| AppBar           | Top navigation bar                               | Title of each page appears here           |
+| Column           | vertical layout                                  |                                           |
+| Row              | horizontal layout                                |                                           |
+| Container        | wraps content with padding, margin, or color     |                                           |
+| Text             | Displays text                                    |                                           |
+| Image.network    | Displays images                                  |                                           |
+| Padding          | adds space around a widget                       |                                           |    
+| Center           | centers its child                                |                                           |
 
 ---
 
