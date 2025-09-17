@@ -1,11 +1,15 @@
-## Table of Contents
-- [Day 1](#day-1)
-  - [Notes](#notes)
-  - [Practice](#practice)
-- [Day 2](#day-2)
-- [Code Definitions](#code_definitions)
-- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+#My Coding Notebook
 
+
+
+## Table of Contents
+- [Flutter Notes](#flutter-notes)
+ - [What is Flutter?](#what-is-flutter)
+ - [Key Terms and Definitions](#key-terms-and-definitions)
+ - [Layout and Design Widgets](layout-and-design-widgets)
+ - [Definitions with Structures](#flutter-definitions-with-structures)
+- [Code Definitions](#code-definitions)
+- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 
 ## Flutter Notes
