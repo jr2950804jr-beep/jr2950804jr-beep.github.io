@@ -24,11 +24,9 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           | Basic building block of a flutter app.           |  Text,Image,Container,Column              |
-|                  |   Everything is a widget                         |                                           |
+| Widget           | Basic building block of a flutter app.  Everything is a widget            |  Text,Image,Container,Column              |
 | MaterialApp      | The root of the app. Sets up routes an themes.   |  Found in main.dart                       |
-| Scaffold         | Provides basic visiual layout like header, body  |  Each screeen use it                      |
-|                  |   floating button                                |                                           |
+| Scaffold         | Provides basic visiual layout like header, bodyfloating button         |  Each screeen use it                      |
 | StatelessWidget  | A widget that doesn't change                     | Most of the screen files                  |
 | StatefulWidget   | A widget that can change over time               | Used in MyHomePage()                      |
 | Navigator        | Manage screen transitions                        | Navigator.pushNamed(context, '/page2');   |
