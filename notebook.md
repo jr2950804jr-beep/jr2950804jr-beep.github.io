@@ -52,7 +52,7 @@
 
 
 
-
+## Flutter Definitions with structures
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
