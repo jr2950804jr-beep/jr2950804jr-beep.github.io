@@ -54,9 +54,9 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-| main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
+| main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |start your game  |main.dart void main() => runApp(MyPortfolioApp());  |
+| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |creating a website,setting up the configuration  |main.dart return MaterialApp  |
+| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |main.dart scaffoldBackgroundColor: Colors.black,  |
 | Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 | Row     | A widget that shows things side-by-side. | `Row(...)` |  |  |
 | Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
@@ -92,10 +92,11 @@
 ## code definitions
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|Variable| A named container used to store a value that may change. | `var x = 5;` |  |  |
-|constant| A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
-|String| A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+|Variable| A named container used to store a value that may change. | `var x = 5;` |Name,Age,Videos,Images  | main.dart title: 'TSA Portfolio',  |
+|constant| A fixed value that cannot change once set. | `const PI = 3.14;` |  |main.dart appBarTheme: const AppBarTheme.  |
+|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |main.dart, bool|
+|String| A sequence of characters used to represent words or text. | `"Hello World"` |  |Text(
+'hi,\nWelcome to my',|
 |Integer| Whole number values. | `int age = 16;` |  |  |
 |Double| Number values with decimals. | `double age = 16.2;` |  |  |
 |Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
