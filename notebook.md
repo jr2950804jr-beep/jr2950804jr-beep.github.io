@@ -61,12 +61,12 @@
 | Row     | A widget that shows things side-by-side. | `Row(...)` |horizontal lines  |    child: Row( children: [  |
 | Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A Box  |  |
 | Text     | A widget to display text on the screen. | `Text('Hello')` |text message  |home.dart Text 'hi,\nWelcome to my',  |
-| Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  | Image.network(url, width: 100, height: 100, fit: BoxFit.cover),  |
+| Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |online photos  | Image.network(url, width: 100, height: 100, fit: BoxFit.cover),  |
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |ElevatedButton( onPressed:=>Navigator.pushNamed(context, '/alt'), child: const Text('Alternate Design'),  |
-| onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
-| Stateless Widget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  | onPressed: () => Navigator.pushNamed(context, '/alt'),  |
+| onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |a button  | onPressed: () => Navigator.pushNamed(context, '/alt'),   |
+| Stateless Widget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
 | Statefull Widget     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-| Navigator.pushNamed     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  | onPressed: () => Navigator.pushNamed(context, '/alt'),  |
+| Navigator.pushNamed     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |change of scenes | onPressed: () => Navigator.pushNamed(context, '/alt'),  |
 | Padding     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
 | Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 | Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
