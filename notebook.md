@@ -56,11 +56,11 @@
 |------|----------------------------|----------------|-------------------|-------------|
 | main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |start your game  |main.dart void main() => runApp(MyPortfolioApp());  |
 | MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |creating a website,setting up the configuration  |main.dart return MaterialApp  |
-| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |main.dart scaffoldBackgroundColor: Colors.black,  |
-| Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
-| Row     | A widget that shows things side-by-side. | `Row(...)` |  |  |
+| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |starter pack  |main.dart scaffoldBackgroundColor: Colors.black,  |
+| Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |vertical lines  |  |
+| Row     | A widget that shows things side-by-side. | `Row(...)` |horizontal lines  |  |
 | Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
-| Text     | A widget to display text on the screen. | `Text('Hello')` |  |  |
+| Text     | A widget to display text on the screen. | `Text('Hello')` |text message  |home.dart Text 'hi,\nWelcome to my',  |
 | Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
 | onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
@@ -94,12 +94,11 @@
 |------|------------|--------------------------|-------------------|-------------|
 |Variable| A named container used to store a value that may change. | `var x = 5;` |Name,Age,Videos,Images  | main.dart title: 'TSA Portfolio',  |
 |constant| A fixed value that cannot change once set. | `const PI = 3.14;` |  |main.dart appBarTheme: const AppBarTheme.  |
-|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |main.dart, bool|
-|String| A sequence of characters used to represent words or text. | `"Hello World"` |  |Text(
-'hi,\nWelcome to my',|
-|Integer| Whole number values. | `int age = 16;` |  |  |
-|Double| Number values with decimals. | `double age = 16.2;` |  |  |
-|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |names,age  |main.dart, bool|
+|String| A sequence of characters used to represent words or text. | `"Hello World"` |notebook  |alt_design_screen.dart final List<Map<String, String>> dogInfo = [  |
+|Integer| Whole number values. | `int age = 16;` |age  | background.dart Color.fromARGB(255, 243, 33, 33)  |
+|Double| Number values with decimals. | `double age = 16.2;` |size of something  |  |
+|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |switches(off,on)  |  |
 |List| A collection of values in a specific order. | `List<String> names = [];` |  |  |
 |Null| A special value that means “nothing.” | `String? name = null;` |  |  |
 |Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
