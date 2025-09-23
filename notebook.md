@@ -92,8 +92,8 @@
 ## code definitions
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|Variable| A named container used to store a value that may change. | `var x = 5;` |Name,Age,Videos,Images  | main.dart title: 'TSA Portfolio',  |
-|constant| A fixed value that cannot change once set. | `const PI = 3.14;` |  |main.dart appBarTheme: const AppBarTheme.  |
+|Variable| A named container used to store a value that may change. | `var x = 5;` |UserName,Age,Videos,Images  | main.dart title: 'TSA Portfolio',  |
+|constant| A fixed value that cannot change once set. | `const PI = 3.14;` |real names  |main.dart appBarTheme: const AppBarTheme.  |
 |Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |names,age  |main.dart, bool|
 |String| A sequence of characters used to represent words or text. | `"Hello World"` |notebook  |alt_design_screen.dart final List<Map<String, String>> dogInfo = [  |
 |Integer| Whole number values. | `int age = 16;` |age  | background.dart Color.fromARGB(255, 243, 33, 33)  |
