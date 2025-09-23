@@ -65,13 +65,13 @@
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |ElevatedButton( onPressed:=>Navigator.pushNamed(context, '/alt'), child: const Text('Alternate Design'),  |
 | onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |a button  | onPressed: () => Navigator.pushNamed(context, '/alt'),   |
 | Stateless Widget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |backgrounds,static text,details  |class InfoCard extends StatelessWidget {final String imageUrl; final String description;  |
-| Statefull Widget     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+| Statefull Widget     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |animated things|  |
 | Navigator.pushNamed     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |change of scenes | onPressed: () => Navigator.pushNamed(context, '/alt'),  |
-| Padding     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
-| Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
-| Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+| Padding     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |make the text don't overlays to the widget  | Padding(padding: const EdgeInsets.only(left: 100.0),|
+| Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |aligns all content in the center  |body: Center(  
+| Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |automatically wraps your widgets|  Wrap(alignment: WrapAlignment.center, children: puppyUrls.map((url) => puppyImage(url)).toList()),  |
 | @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |replace of a worker  |@override Widget build(BuildContext context) {  |
-| build() (in list twice)     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
+| build() (in list twice)     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |says what draw in each screen  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
 | build()     | Required in every widget class to describe what to show. | `build` |describe what to show  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
 | BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |someone saying to another people what do  |Widget build(BuildContext context) final List<Map<String, String>> dogInfo = [  |
 | super.key     | A keyword used to pass a value to the parent widget. | `super.key` |something to pass a value to another  |const alt_design_screen({super.key});|
