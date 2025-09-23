@@ -59,7 +59,11 @@
 | Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |starter pack  |main.dart scaffoldBackgroundColor: Colors.black,  |
 | Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |vertical lines  |child: Column( children: [  |
 | Row     | A widget that shows things side-by-side. | `Row(...)` |horizontal lines  |    child: Row( children: [  |
-| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A Box  |  |
+| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A Box  | return Container(
+      width: 160,
+      margin: const EdgeInsets.all(8),
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(  |
 | Text     | A widget to display text on the screen. | `Text('Hello')` |text message  |home.dart Text 'hi,\nWelcome to my',  |
 | Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |online photos  | Image.network(url, width: 100, height: 100, fit: BoxFit.cover),  |
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |ElevatedButton( onPressed:=>Navigator.pushNamed(context, '/alt'), child: const Text('Alternate Design'),  |
@@ -72,10 +76,10 @@
 | Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 | @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
 | build() (in list twice)     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
-| build()     | Required in every widget class to describe what to show. | `build` |  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
-| BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |someaone saying  |Widget build(BuildContext context) final List<Map<String, String>> dogInfo = [  |
-| super.key     | A keyword used to pass a value to the parent widget. | `super.key` |  |const alt_design_screen({super.key});|
-| const     | A keyword that means the value won't change and is set once. | `const` |  |const alt_design_screen({super.key});|
+| build()     | Required in every widget class to describe what to show. | `build` |describe what to show  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
+| BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |someone saying to another people what do  |Widget build(BuildContext context) final List<Map<String, String>> dogInfo = [  |
+| super.key     | A keyword used to pass a value to the parent widget. | `super.key` |something to pass a value to another  |const alt_design_screen({super.key});|
+| const     | A keyword that means the value won't change and is set once. | `const` |Name  |const alt_design_screen({super.key});|
 
 
 
