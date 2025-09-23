@@ -71,11 +71,11 @@
 | Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 | Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 | @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-| build() (in list twice)     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-| build()     | Required in every widget class to describe what to show. | `build` |  |  |
-| BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-| super.key     | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-| const     | A keyword that means the value won't change and is set once. | `const` |  |  |
+| build() (in list twice)     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
+| build()     | Required in every widget class to describe what to show. | `build` |  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
+| BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |someaone saying  |Widget build(BuildContext context) final List<Map<String, String>> dogInfo = [  |
+| super.key     | A keyword used to pass a value to the parent widget. | `super.key` |  |const alt_design_screen({super.key});|
+| const     | A keyword that means the value won't change and is set once. | `const` |  |const alt_design_screen({super.key});|
 
 
 
