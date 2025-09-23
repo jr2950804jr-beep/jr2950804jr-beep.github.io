@@ -64,13 +64,13 @@
 | Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |online photos  | Image.network(url, width: 100, height: 100, fit: BoxFit.cover),  |
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |ElevatedButton( onPressed:=>Navigator.pushNamed(context, '/alt'), child: const Text('Alternate Design'),  |
 | onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |a button  | onPressed: () => Navigator.pushNamed(context, '/alt'),   |
-| Stateless Widget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
+| Stateless Widget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |backgrounds,static text,details  |class InfoCard extends StatelessWidget {final String imageUrl; final String description;  |
 | Statefull Widget     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
 | Navigator.pushNamed     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |change of scenes | onPressed: () => Navigator.pushNamed(context, '/alt'),  |
 | Padding     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
 | Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 | Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-| @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+| @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |replace of a worker  |@override Widget build(BuildContext context) {  |
 | build() (in list twice)     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
 | build()     | Required in every widget class to describe what to show. | `build` |describe what to show  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
 | BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |someone saying to another people what do  |Widget build(BuildContext context) final List<Map<String, String>> dogInfo = [  |
