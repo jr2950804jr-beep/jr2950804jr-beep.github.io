@@ -59,11 +59,7 @@
 | Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |starter pack  |main.dart scaffoldBackgroundColor: Colors.black,  |
 | Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |vertical lines  |child: Column( children: [  |
 | Row     | A widget that shows things side-by-side. | `Row(...)` |horizontal lines  |    child: Row( children: [  |
-| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A Box  | return Container(
-      width: 160,
-      margin: const EdgeInsets.all(8),
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(  |
+| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A Box  | return Container(width: 160, 
 | Text     | A widget to display text on the screen. | `Text('Hello')` |text message  |home.dart Text 'hi,\nWelcome to my',  |
 | Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |online photos  | Image.network(url, width: 100, height: 100, fit: BoxFit.cover),  |
 | ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |ElevatedButton( onPressed:=>Navigator.pushNamed(context, '/alt'), child: const Text('Alternate Design'),  |
