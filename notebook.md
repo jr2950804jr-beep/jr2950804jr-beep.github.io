@@ -106,11 +106,11 @@
 |Return| The result a function gives back. | `return total;` |get something  |return Scaffold(  |
 |Scope| Where a variable or function can be used. | (No set syntax — concept-based) |the places where you can put a variable and you can use that|no found in app  |
 |Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |a box what have paramteres what creates other objects|class MyPortfolioApp extends StatelessWidget   |
-|Object| A specific version of a class. | `Dog myDog = Dog();` |an especific object of the class  |no found in app  |
+|Object| A specific version of a class. | `Dog myDog = Dog();` |an especific object of the class  |InfoCard( imageUrl: dog['image']!, description: dog['text']!,)) |
 |Property| A variable that belongs to a class/object. | `String name;` |properties of something |final String description;  |
 |Method| A function that belongs to a class. | `void bark() {}` |the driving functiona to a car class  |Widget build(BuildContext context) {  |
 |Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |set up the name of a class  |Widget build(BuildContext context) {  |
-|Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |all the things in a program  |found in app  |
+|Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |all the things in a program  |return Scaffold(  |
 |Override| Changing how a built-in or inherited function behaves. | `@override` |changing a number  |@override Widget build(BuildContext context) {  |
 |Void| A function that does not return a value. | `void printMessage() {}` |start an app  |void main() => runApp(MyPortfolioApp());  |
 
