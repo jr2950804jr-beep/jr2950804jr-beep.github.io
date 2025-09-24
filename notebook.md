@@ -97,22 +97,22 @@
 |Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |names,age  |main.dart, bool|
 |String| A sequence of characters used to represent words or text. | `"Hello World"` |notebook  |alt_design_screen.dart final List<Map<String, String>> dogInfo = [  |
 |Integer| Whole number values. | `int age = 16;` |age  | background.dart Color.fromARGB(255, 243, 33, 33)  |
-|Double| Number values with decimals. | `double age = 16.2;` |size of something  |  |
-|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |switches(off,on)  |  |
-|List| A collection of values in a specific order. | `List<String> names = [];` |  |  |
-|Null| A special value that means “nothing.” | `String? name = null;` |  |  |
-|Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
-|Parameter| The information passed into a function to change how it works. | `greet(String name)` |  |  |
-|Return| The result a function gives back. | `return total;` |  |  |
-|Scope| Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|Object| A specific version of a class. | `Dog myDog = Dog();` |  |  |
-|Property| A variable that belongs to a class/object. | `String name;` |  |  |
-|Method| A function that belongs to a class. | `void bark() {}` |  |  |
-|Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|Override| Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|Void| A function that does not return a value. | `void printMessage() {}` |  |  |
+|Double| Number values with decimals. | `double age = 16.2;` |size of something  |const SizedBox(height: 20)  |
+|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |switches(off,on)  |final List<Map<String, String>> dogInfo = [  |
+|List| A collection of values in a specific order. | `List<String> names = [];` |shop list |final List<Map<String, String>> dogInfo = [  |
+|Null| A special value that means “nothing.” | `String? name = null;` |something has value is nothing  |no found in app  |
+|Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |a jumpt code in a videogame  |Widget build(BuildContext context) {  |
+|Parameter| The information passed into a function to change how it works. | `greet(String name)` |rules of something |Widget build(BuildContext context) {  |
+|Return| The result a function gives back. | `return total;` |get something  |return Scaffold(  |
+|Scope| Where a variable or function can be used. | (No set syntax — concept-based) |the places where you can put a variable and you can use that|no found in app  |
+|Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |a box what have paramteres what creates other objects|class MyPortfolioApp extends StatelessWidget   |
+|Object| A specific version of a class. | `Dog myDog = Dog();` |an especific object of the class  |no found in app  |
+|Property| A variable that belongs to a class/object. | `String name;` |properties of something |final String description;  |
+|Method| A function that belongs to a class. | `void bark() {}` |the driving functiona to a car class  |Widget build(BuildContext context) {  |
+|Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |set up the name of a class  |Widget build(BuildContext context) {  |
+|Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |all the things in a program  |found in app  |
+|Override| Changing how a built-in or inherited function behaves. | `@override` |changing a number  |@override Widget build(BuildContext context) {  |
+|Void| A function that does not return a value. | `void printMessage() {}` |start an app  |void main() => runApp(MyPortfolioApp());  |
 
 
 
