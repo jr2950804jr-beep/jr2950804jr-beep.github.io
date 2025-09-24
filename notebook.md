@@ -97,7 +97,7 @@
 |Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |names,age  |main.dart, bool|
 |String| A sequence of characters used to represent words or text. | `"Hello World"` |notebook  |alt_design_screen.dart final List<Map<String, String>> dogInfo = [  |
 |Integer| Whole number values. | `int age = 16;` |age  | background.dart Color.fromARGB(255, 243, 33, 33)  |
-|Double| Number values with decimals. | `double age = 16.2;` |size of something  |const SizedBox(height: 20)  |
+|Double| Number values with decimals. | `double age = 16.2;` |size of something  |const SizedBox(height: 20.3)  |
 |Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |switches(off,on)  |final List<Map<String, String>> dogInfo = [  |
 |List| A collection of values in a specific order. | `List<String> names = [];` |shop list |final List<Map<String, String>> dogInfo = [  |
 |Null| A special value that means “nothing.” | `String? name = null;` |something has value is nothing  |no found in app  |
