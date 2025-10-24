@@ -113,14 +113,14 @@
 |Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |all the things in a program  |return Scaffold(  |
 |Override| Changing how a built-in or inherited function behaves. | `@override` |changing a number  |@override Widget build(BuildContext context) {  |
 |Void| A function that does not return a value. | `void printMessage() {}` |start an app  |void main() => runApp(MyPortfolioApp());  |
-
-
-
-
-
-
-
-
+|Scanner|Creates a scanner object to take input from user |Scanner in = new Scanner(System.in); |  ||
+|Import Scanner|Give access to the Scanner class,required at top|import java.util.Scanner;  |  ||
+|Print line statement|prints the content in the parenthesis,adds line after |System.out.println("");  |  ||
+|Print statement|prints the content in the parenthesis |System.out.print(" ");  |  ||
+|Input nextLine|reads in a String from the user  |input.nextLine();  | ||
+|Input nextInt|reads in an int from the user |input.nextInt();  |  ||
+|Input nextDouble|Reads in a double(decimal) from the user |input.nextDouble();  |  ||
+|Input nextBoolean|Reads in a boolean(true/false) from the user |input.nextBoolean();  |  ||
 
 
 
