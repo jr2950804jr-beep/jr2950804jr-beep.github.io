@@ -121,7 +121,7 @@
 |Input nextInt|reads in an int from the user |input.nextInt();  |  ||
 |Input nextDouble|Reads in a double(decimal) from the user |input.nextDouble();  |  ||
 |Input nextBoolean|Reads in a boolean(true/false) from the user |input.nextBoolean();  |  ||
-|Arimethic operators|-     *     /      % (modulus, returns the remainder from dividing) ||  ||
+|Arimethic operators|+       -     *     /      % (modulus, returns the remainder from dividing) ||  ||
 |Compound operators (applies the result to the variable)| +=     -=     *=       %=        ++(adds 1) ||  ||
 
 
