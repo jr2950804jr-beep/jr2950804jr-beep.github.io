@@ -123,8 +123,10 @@
 |Input nextBoolean|Reads in a boolean(true/false) from the user |input.nextBoolean();  |  ||
 |Arimethic operators|+       -     *     /      % (modulus, returns the remainder from dividing) ||  ||
 |Compound operators (applies the result to the variable)| +=     -=     *=       %=        ++(adds 1) ||  ||
-
-
+|Compound operators (applies the result to the variable)| +=     -=     *=       %=        ++(adds 1) ||  ||
+| Overloaded method/function or constructor | Uses the same name, but has different parameters | Pizza(),Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping | | |
+| dot notation | Methods are called on objects using a dot after the object name | object.method(value); | | |
+| Concatenate | To combine Strings with other Strings and/or variables | String greeting = "Hello" + "My name is " + name ".";| | |
 
 
 
