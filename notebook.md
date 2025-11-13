@@ -92,6 +92,8 @@
 ## code definitions
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 |Variable| A named container used to store a value that may change. | `var x = 5;` |UserName,Age,Videos,Images  | main.dart title: 'TSA Portfolio',  |
 |constant| A fixed value that cannot change once set. | `const PI = 3.14;` |real names  |main.dart appBarTheme: const AppBarTheme.  |
 |Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |names,age  |main.dart, bool|
@@ -127,8 +129,7 @@
 | Overloaded method/function or constructor | Uses the same name, but has different parameters | Pizza(),Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping | | |
 | dot notation | Methods are called on objects using a dot after the object name | object.method(value); | | |
 | Concatenate | To combine Strings with other Strings and/or variables | String greeting = "Hello" + "My name is " + name ".";| | |
-| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
-| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
+
 
 
 
