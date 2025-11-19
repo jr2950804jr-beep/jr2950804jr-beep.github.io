@@ -130,7 +130,15 @@
 | dot notation | Methods are called on objects using a dot after the object name | object.method(value); | | |
 | Concatenate | To combine Strings with other Strings and/or variables | String greeting = "Hello" + "My name is " + name ".";| | |
 
+[String notes](#string-notes)
+### String Notes
+- Strings have indices (plural for index,) which start at 0. "Hello" has indices 0(H), 1(e), 2(1), 3(1), 4(o).
+- Final index location is length-1
 
+[String Methods Table](#string-methods-table)
+### String Methods Table
+
+<img width="2367" height="1185" alt="image" src="https://github.com/user-attachments/assets/b77319ba-17e2-45ba-af0e-bd3b653604ac" />
 
 
 
