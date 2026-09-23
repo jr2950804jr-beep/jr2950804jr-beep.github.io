@@ -1,81 +1,154 @@
-# My Coding Notebook
-
-
-
 ## Table of Contents
-- [Flutter Notes](#flutter-notes)
- - [What is Flutter?](#what-is-flutter)
- - [Key Terms and Definitions](#key-terms-and-definitions)
- - [Layout and Design Widgets](layout-and-design-widgets)
- - [Definitions with Structures](#flutter-definitions-with-structures)
-- [Code Definitions](#code-definitions)
-- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+
+<details>
+<summary><strong>Vocab</strong></summary>
+
+<ul>
+<li>
+<details>
+<summary><strong>Basics</strong></summary>
+<ul>
+<li><a href="#algorithm">algorithm</a></li>
+<li><a href="#sequencing">sequencing</a></li>
+<li><a href="#variable">variable</a></li>
+<li><a href="#variable-declaration">variable declaration</a></li>
+<li><a href="#variable-initialization">variable initialization</a></li>
+<li><a href="#assignment">assignment</a></li>
+<li><a href="#data-types">data types</a></li>
+<li><a href="#string">String</a></li>
+<li><a href="#int">int</a></li>
+<li><a href="#double">double</a></li>
+<li><a href="#boolean">boolean</a></li>
+<li><a href="#console-output">console / output</a></li>
+<li><a href="#concatenation">concatenation</a></li>
+<li><a href="#type-conversion-casting">type conversion / casting</a></li>
+</ul>
+</details>
+</li>
+
+<li>
+<details>
+<summary><strong>Methods</strong></summary>
+<ul>
+<li><a href="#method">method</a></li>
+<li><a href="#method-declaration">method declaration</a></li>
+<li><a href="#method-call">method call</a></li>
+<li><a href="#parameter">parameter</a></li>
+<li><a href="#argument">argument</a></li>
+<li><a href="#void">void</a></li>
+<li><a href="#return-type">return type</a></li>
+<li><a href="#return-statement">return statement</a></li>
+<li><a href="#scope-local-variable">scope / local variable</a></li>
+<li><a href="#method-overloading">method overloading</a></li>
+</ul>
+</details>
+</li>
+
+<li>
+<details>
+<summary><strong>User Input</strong></summary>
+<ul>
+<li><a href="#scanner">Scanner</a></li>
+<li><a href="#user-input">user input</a></li>
+<li><a href="#scanner-input-methods">Scanner input methods</a></li>
+</ul>
+</details>
+</li>
+
+<li>
+<details>
+<summary><strong>Operators</strong></summary>
+<ul>
+<li><a href="#arithmetic-operators">arithmetic operators</a></li>
+<li><a href="#modulus">modulus (%)</a></li>
+<li><a href="#increment-decrement">increment / decrement</a></li>
+<li><a href="#compound-assignment">compound assignment</a></li>
+<li><a href="#comparison-operators">comparison operators</a></li>
+</ul>
+</details>
+</li>
+
+<li>
+<details>
+<summary><strong>Control Structures</strong></summary>
+<ul>
+<li><a href="#conditional-statement">conditional statement</a></li>
+<li><a href="#if-statement">if statement</a></li>
+<li><a href="#if-else">if / else</a></li>
+<li><a href="#if-else-if-else">if / else if / else</a></li>
+<li><a href="#nested-if-statement">nested if statement</a></li>
+<li><a href="#logical-operators">logical operators</a></li>
+<li><a href="#compound-boolean-expression">compound boolean expression</a></li>
+<li><a href="#de-morgans-law">De Morgan's Law</a></li>
+<li><a href="#for-loop">for loop</a></li>
+<li><a href="#while-loop">while loop</a></li>
+<li><a href="#infinite-loop">infinite loop</a></li>
+</ul>
+</details>
+</li>
+
+<li>
+<details>
+<summary><strong>Classes and Objects</strong></summary>
+<ul>
+<li><a href="#class">class</a></li>
+<li><a href="#object">object</a></li>
+<li><a href="#instance">instance</a></li>
+<li><a href="#instance-field">instance field</a></li>
+<li><a href="#constructor">constructor</a></li>
+<li><a href="#constructor-parameter">constructor parameter</a></li>
+<li><a href="#new-keyword">new keyword</a></li>
+<li><a href="#dot-notation">dot notation</a></li>
+<li><a href="#static-vs-non-static-methods">static vs. non-static methods</a></li>
+<li><a href="#abstraction">abstraction</a></li>
+</ul>
+</details>
+</li>
+
+<li>
+<details>
+<summary><strong>Useful Java Tools</strong></summary>
+<ul>
+<li><a href="#math-class">Math class</a></li>
+<li><a href="#math-random">Math.random()</a></li>
+</ul>
+</details>
+</li>
+</ul>
+
+</details>
+
+<details>
+<summary><strong>Code Examples</strong></summary>
+
+<ul>
+<li><a href="#starter-program-example">Starter Program Example</a></li>
+<li><a href="#variables-and-updating-values-example">Variables and Updating Values Example</a></li>
+<li><a href="#strings-and-concatenation-example">Strings and Concatenation Example</a></li>
+<li><a href="#user-input-example">User Input Example</a></li>
+<li><a href="#comparison-operators-example">Comparison Operators Example</a></li>
+<li><a href="#if-statement-example">If Statement Example</a></li>
+<li><a href="#if--else-example">If / Else Example</a></li>
+<li><a href="#if--else-if--else-example">If / Else If / Else Example</a></li>
+<li><a href="#compound-booleans-example">Compound Booleans Example</a></li>
+<li><a href="#de-morgans-law-example">De Morgan's Law Example</a></li>
+<li><a href="#for-loop-example">For Loop Example</a></li>
+<li><a href="#while-loop-example">While Loop Example</a></li>
+<li><a href="#arithmetic-and-modulus-example">Arithmetic and Modulus Example</a></li>
+<li><a href="#method-with-parameters-example">Method with Parameters Example</a></li>
+<li><a href="#method-that-returns-a-value-example">Method that Returns a Value Example</a></li>
+<li><a href="#scope-example">Scope Example</a></li>
+<li><a href="#method-overloading-example">Method Overloading Example</a></li>
+<li><a href="#class-with-instance-fields-example">Class with Instance Fields Example</a></li>
+<li><a href="#constructor-and-object-creation-example">Constructor and Object Creation Example</a></li>
+<li><a href="#dot-notation-and-non-static-method-example">Dot Notation and Non-Static Method Example</a></li>
+</ul>
+
+</details>
+
+<a href="#notebook-style-guide">Notebook Style Guide</a>
 
 
-## Flutter Notes
-
-### What is Flutter?
-- Definition: A framewprk made by Google for building apps that work on web,Android,and iOS with one codebase.
-- Why is it useful?
-- It's useful because you only need to make the page once, instead of having to make 3 different versions.
----
-
-### Key Terms and Definitions
-
-| Term             | Definition                                      | Example / Notes                          |
-|------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           | Basic building block of a flutter app.  Everything is a widget            |  Text,Image,Container,Column              |
-| MaterialApp      | The root of the app. Sets up routes an themes.   |  Found in main.dart                       |
-| Scaffold         | Provides basic visiual layout like header, bodyfloating button         |  Each screeen use it                      |
-| StatelessWidget  | A widget that doesn't change                     | Most of the screen files                  |
-| StatefulWidget   | A widget that can change over time               | Used in MyHomePage()                      |
-| Navigator        | Manage screen transitions                        | Navigator.pushNamed(context, '/page2');   |
-| AppBar           | Top navigation bar                               | Title of each page appears here           |
-| Column           | vertical layout                                  |                                           |
-| Row              | horizontal layout                                |                                           |
-| Container        | wraps content with padding, margin, or color     |                                           |
-| Text             | Displays text                                    |                                           |
-| Image.network    | Displays images                                  |                                           |
-| Padding          | adds space around a widget                       |                                           |    
-| Center           | centers its child                                |                                           |
-
----
-
-### Layout and Design Widgets
-- How do you center a widget?
-- How do you align something to the left or right?
-- What widget adds space around content?
-
-
-
-
-
-## Flutter Definitions with structures
-
-| Term | Definition and Description | Base Structure | Real Life Example | App Example |
-|------|----------------------------|----------------|-------------------|-------------|
-| main()     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |start your game  |main.dart void main() => runApp(MyPortfolioApp());  |
-| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |creating a website,setting up the configuration  |main.dart return MaterialApp  |
-| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |starter pack  |main.dart scaffoldBackgroundColor: Colors.black,  |
-| Column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |vertical lines  |child: Column( children: [  |
-| Row     | A widget that shows things side-by-side. | `Row(...)` |horizontal lines  |    child: Row( children: [  |
-| Container     | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A Box  | return Container(width: 160, 
-| Text     | A widget to display text on the screen. | `Text('Hello')` |text message  |home.dart Text 'hi,\nWelcome to my',  |
-| Image.network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |online photos  | Image.network(url, width: 100, height: 100, fit: BoxFit.cover),  |
-| ElevatedButton     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |a button for jump in a videogame  |ElevatedButton( onPressed:=>Navigator.pushNamed(context, '/alt'), child: const Text('Alternate Design'),  |
-| onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |a button  | onPressed: () => Navigator.pushNamed(context, '/alt'),   |
-| Stateless Widget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |backgrounds,static text,details  |class InfoCard extends StatelessWidget {final String imageUrl; final String description;  |
-| Statefull Widget     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |animated things|no found in app  |
-| Navigator.pushNamed     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |change of scenes | onPressed: () => Navigator.pushNamed(context, '/alt'),  |
-| Padding     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |make the text don't overlays to the widget  | Padding(padding: const EdgeInsets.only(left: 100.0),|
-| Center     | Aligns content in the center of the screen or container. | `Center(child: ...)` |aligns all content in the center  |body: Center(  
-| Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |automatically wraps your widgets|  Wrap(alignment: WrapAlignment.center, children: puppyUrls.map((url) => puppyImage(url)).toList()),  |
-| @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |replace of a worker  |@override Widget build(BuildContext context) {  |
-| build() (in list twice)     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |says what draw in each screen  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
-| build()     | Required in every widget class to describe what to show. | `build` |describe what to show  |Widget build(BuildContext context) {final List<Map<String, String>> dogInfo = [  |
-| BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |someone saying to another people what do  |Widget build(BuildContext context) final List<Map<String, String>> dogInfo = [  |
-| super.key     | A keyword used to pass a value to the parent widget. | `super.key` |something to pass a value to another  |const alt_design_screen({super.key});|
-| const     | A keyword that means the value won't change and is set once. | `const` |Name  |const alt_design_screen({super.key});|
 
 
 
@@ -89,107 +162,680 @@
 
 
 
-## code definitions
-| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
-|------|------------|--------------------------|-------------------|-------------|
-| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
-| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
-|Variable| A named container used to store a value that may change. | `var x = 5;` |UserName,Age,Videos,Images  | main.dart title: 'TSA Portfolio',  |
-|constant| A fixed value that cannot change once set. | `const PI = 3.14;` |real names  |main.dart appBarTheme: const AppBarTheme.  |
-|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |names,age  |main.dart, bool|
-|String| A sequence of characters used to represent words or text. | `"Hello World"` |notebook  |alt_design_screen.dart final List<Map<String, String>> dogInfo = [  |
-|Integer| Whole number values. | `int age = 16;` |age  | background.dart Color.fromARGB(255, 243, 33, 33)  |
-|Double| Number values with decimals. | `double age = 16.2;` |size of something  |const SizedBox(height: 20.3)  |
-|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |switches(off,on)  |final List<Map<String, String>> dogInfo = [  |
-|List| A collection of values in a specific order. | `List<String> names = [];` |shop list |final List<Map<String, String>> dogInfo = [  |
-|Null| A special value that means “nothing.” | `String? name = null;` |something has value is nothing  |no found in app  |
-|Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |a jumpt code in a videogame  |Widget build(BuildContext context) {  |
-|Parameter| The information passed into a function to change how it works. | `greet(String name)` |rules of something |Widget build(BuildContext context) {  |
-|Return| The result a function gives back. | `return total;` |get something  |return Scaffold(  |
-|Scope| Where a variable or function can be used. | (No set syntax — concept-based) |the places where you can put a variable and you can use that|no found in app  |
-|Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |a box what have paramteres what creates other objects|class MyPortfolioApp extends StatelessWidget   |
-|Object| A specific version of a class. | `Dog myDog = Dog();` |an especific object of the class  |InfoCard( imageUrl: dog['image']!, description: dog['text']!,)) |
-|Property| A variable that belongs to a class/object. | `String name;` |properties of something |final String description;  |
-|Method| A function that belongs to a class. | `void bark() {}` |the driving functiona to a car class  |Widget build(BuildContext context) {  |
-|Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |set up the name of a class  |Widget build(BuildContext context) {  |
-|Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |all the things in a program  |return Scaffold(  |
-|Override| Changing how a built-in or inherited function behaves. | `@override` |changing a number  |@override Widget build(BuildContext context) {  |
-|Void| A function that does not return a value. | `void printMessage() {}` |start an app  |void main() => runApp(MyPortfolioApp());  |
-|Scanner|Creates a scanner object to take input from user |Scanner in = new Scanner(System.in); |  ||
-|Import Scanner|Give access to the Scanner class,required at top|import java.util.Scanner;  |  ||
-|Print line statement|prints the content in the parenthesis,adds line after |System.out.println("");  |  ||
-|Print statement|prints the content in the parenthesis |System.out.print(" ");  |  ||
-|Input nextLine|reads in a String from the user  |input.nextLine();  | ||
-|Input nextInt|reads in an int from the user |input.nextInt();  |  ||
-|Input nextDouble|Reads in a double(decimal) from the user |input.nextDouble();  |  ||
-|Input nextBoolean|Reads in a boolean(true/false) from the user |input.nextBoolean();  |  ||
-|Arimethic operators|+       -     *     /      % (modulus, returns the remainder from dividing) ||  ||
-|Compound operators (applies the result to the variable)| +=     -=     *=       %=        ++(adds 1) ||  ||
-|Compound operators (applies the result to the variable)| +=     -=     *=       %=        ++(adds 1) ||  ||
-| Overloaded method/function or constructor | Uses the same name, but has different parameters | Pizza(),Pizza(String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping | | |
-| dot notation | Methods are called on objects using a dot after the object name | object.method(value); | | |
-| Concatenate | To combine Strings with other Strings and/or variables | String greeting = "Hello" + "My name is " + name ".";| | |
 
-[String notes](#string-notes)
-### String Notes
-- Strings have indices (plural for index,) which start at 0. "Hello" has indices 0(H), 1(e), 2(1), 3(1), 4(o).
-- Final index location is length-1
 
-[String Methods Table](#string-methods-table)
-### String Methods Table
-
-<img width="2367" height="1185" alt="image" src="https://github.com/user-attachments/assets/b77319ba-17e2-45ba-af0e-bd3b653604ac" />
+## Vocab
 
 
 
-## Markdown Style Guide for Coding Notebooks
-
-Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
-This ensures your notes are easy for you (and others) to read later.
-
----
-
-## 🔹 Headings
-**When to use:** Organize your notebook into sections (like days, topics, or projects).  
-- `#` for the notebook title (use once at the top).  
-- `##` for each day or major topic.  
-- `###` for subsections (like "Notes", "Practice", "Reflections").  
-
-✅ Example:
 
 
-# My Coding Notebook
-## Day 1
-### Notes
-### Practice
 
-🔡 Text Formatting
-When to use: Highlight important ideas or add emphasis.
 
-Use bold for key terms or definitions.
+### Basics
 
-Use italic for emphasis or side comments.
+<details>
+<summary id="algorithm">algorithm</summary>
+<p><strong>Definition:</strong> A step-by-step process used to complete a task or solve a problem.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int total = price1 + price2;
+System.out.println(total);
+</code></pre>
+</details>
 
-Use inline code for keywords, functions, or commands.
+<details>
+<summary id="sequencing">sequencing</summary>
+<p><strong>Definition:</strong> The order in which instructions are completed. Changing the order can change the result.</p>
+</details>
 
- 
+<details>
+<summary id="variable">variable</summary>
+<p><strong>Definition:</strong> A named storage location that holds a value that can change.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int score = 10;
+score = 15;
+</code></pre>
+</details>
 
-✅ Example:
+<details>
+<summary id="variable-declaration">variable declaration</summary>
+<p><strong>Definition:</strong> Creating a variable by giving Java its data type and name.</p>
+<p><strong>Structure / syntax:</strong></p>
+<pre><code class="language-java">dataType variableName;
+</code></pre>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">String weather;
+</code></pre>
+</details>
 
-**Class** = a blueprint for objects  
-*Remember:* always test your code  
-Use `System.out.println()` to print
+<details>
+<summary id="variable-initialization">variable initialization</summary>
+<p><strong>Definition:</strong> Giving a variable its first value when it is created.</p>
+<p><strong>Structure / syntax:</strong></p>
+<pre><code class="language-java">dataType variableName = value;
+</code></pre>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">String weather = "sunny";
+</code></pre>
+</details>
 
- 
+<details>
+<summary id="assignment">assignment</summary>
+<p><strong>Definition:</strong> Using <code>=</code> to store or replace a value in a variable.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">weather = "rainy";
+</code></pre>
+</details>
 
-💻 Code Blocks
-When to use: Anytime you write multiple lines of code.
+<details>
+<summary id="data-types">data types</summary>
+<p><strong>Definition:</strong> Categories that tell Java what kind of value a variable can store.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">String name = "Alex";
+int age = 16;
+double height = 5.8;
+boolean hasPermit = true;
+</code></pre>
+</details>
 
-Inline code for short snippets.
+<details>
+<summary id="string">String</summary>
+<p><strong>Definition:</strong> A Java type used to store text.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">String playerName = "Alex";
+</code></pre>
+</details>
 
-Fenced code blocks with language for full examples.
+<details>
+<summary id="int">int</summary>
+<p><strong>Definition:</strong> A Java type used to store whole numbers.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int lives = 3;
+</code></pre>
+</details>
 
-✅ Example:
+<details>
+<summary id="double">double</summary>
+<p><strong>Definition:</strong> A Java type used to store numbers that may contain decimals.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">double price = 12.99;
+</code></pre>
+</details>
+
+<details>
+<summary id="boolean">boolean</summary>
+<p><strong>Definition:</strong> A Java type that stores only <code>true</code> or <code>false</code>.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">boolean isLoggedIn = false;
+</code></pre>
+</details>
+
+<details>
+<summary id="console-output">console / output</summary>
+<p><strong>Definition:</strong> The console displays information produced by a program. Information sent out by a program is output.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">System.out.println("Hello World!");
+</code></pre>
+</details>
+
+<details>
+<summary id="concatenation">concatenation</summary>
+<p><strong>Definition:</strong> Combining Strings together with the <code>+</code> operator.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">String fullName = firstName + " " + lastName;
+</code></pre>
+</details>
+
+<details>
+<summary id="type-conversion-casting">type conversion / casting</summary>
+<p><strong>Definition:</strong> Changing a value from one data type to another.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int age = Integer.parseInt("16");
+double price = 19.99;
+int wholePrice = (int) price;
+</code></pre>
+<p>Casting a <code>double</code> to an <code>int</code> removes the decimal portion; it does not round.</p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+### Methods
+
+<details>
+<summary id="method">method</summary>
+<p><strong>Definition:</strong> A reusable block of code that performs a task.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static void sayHi() {
+    System.out.println("Hi!");
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="method-declaration">method declaration</summary>
+<p><strong>Definition:</strong> The code that defines a method's name, return type, parameters, and body.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static void greet(String name) {
+    System.out.println("Hello, " + name);
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="method-call">method call</summary>
+<p><strong>Definition:</strong> An instruction that tells Java to run a method.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">greet("Jordan");
+</code></pre>
+</details>
+
+<details>
+<summary id="parameter">parameter</summary>
+<p><strong>Definition:</strong> A variable listed in a method declaration that receives information.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static void greet(String name) {
+    System.out.println("Hello, " + name);
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="argument">argument</summary>
+<p><strong>Definition:</strong> A value supplied to a method when it is called.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">greet("Jordan");
+</code></pre>
+</details>
+
+<details>
+<summary id="void">void</summary>
+<p><strong>Definition:</strong> A method return type that means the method does not send a value back.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static void printMessage() {
+    System.out.println("Hello");
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="return-type">return type</summary>
+<p><strong>Definition:</strong> The data type written before a method name that tells Java what type of value the method returns.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static int getScore() {
+    return 100;
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="return-statement">return statement</summary>
+<p><strong>Definition:</strong> Sends a value back from a method and ends that method.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static int add(int a, int b) {
+    return a + b;
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="scope-local-variable">scope / local variable</summary>
+<p><strong>Definition:</strong> Scope is where a name can be used. A local variable exists only inside the method or block where it is declared.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static void example() {
+    int score = 10;
+    System.out.println(score);
+}
+// score cannot be used here
+</code></pre>
+</details>
+
+<details>
+<summary id="method-overloading">method overloading</summary>
+<p><strong>Definition:</strong> Creating multiple methods with the same name but different parameter lists.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static void show(int number) { }
+static void show(String text) { }
+</code></pre>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### User Input
+
+<details>
+<summary id="scanner">Scanner</summary>
+<p><strong>Definition:</strong> A Java class commonly used to read keyboard input.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">import java.util.Scanner;
+
+Scanner input = new Scanner(System.in);
+</code></pre>
+</details>
+
+<details>
+<summary id="user-input">user input</summary>
+<p><strong>Definition:</strong> Information entered into a program by the user while the program is running.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">System.out.print("Enter your age: ");
+int age = input.nextInt();
+</code></pre>
+</details>
+
+<details>
+<summary id="scanner-input-methods">Scanner input methods</summary>
+<p><strong>Definition:</strong> Methods used to read different kinds of input with a <code>Scanner</code>.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">String name = input.nextLine();
+int age = input.nextInt();
+double price = input.nextDouble();
+</code></pre>
+<p><code>nextLine()</code> reads text, <code>nextInt()</code> reads an integer, and <code>nextDouble()</code> reads a decimal number.</p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Operators
+
+<details>
+<summary id="arithmetic-operators">arithmetic operators</summary>
+<p><strong>Definition:</strong> Operators used for math: <code>+</code>, <code>-</code>, <code>*</code>, and <code>/</code>.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int total = 5 + 2;
+int product = 5 * 2;
+double quotient = 5.0 / 2.0;
+</code></pre>
+</details>
+
+<details>
+<summary id="modulus">modulus (%)</summary>
+<p><strong>Definition:</strong> Returns the remainder after division.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">System.out.println(10 % 3); // 1
+</code></pre>
+</details>
+
+<details>
+<summary id="increment-decrement">increment / decrement</summary>
+<p><strong>Definition:</strong> <code>++</code> increases by 1. <code>--</code> decreases by 1.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">score++;
+lives--;
+</code></pre>
+</details>
+
+<details>
+<summary id="compound-assignment">compound assignment</summary>
+<p><strong>Definition:</strong> Combines an operation with assignment, such as <code>+=</code>, <code>-=</code>, <code>*=</code>, and <code>/=</code>.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">score += 5;
+health -= 10;
+</code></pre>
+</details>
+
+<details>
+<summary id="comparison-operators">comparison operators</summary>
+<p><strong>Definition:</strong> Compare two values and produce <code>true</code> or <code>false</code>: <code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code>.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">System.out.println(score &gt;= 70);
+System.out.println(lives != 0);
+</code></pre>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Control Structures
+
+<details>
+<summary id="conditional-statement">conditional statement</summary>
+<p><strong>Definition:</strong> A statement that makes a decision based on a boolean condition.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">if (temperature &lt; 50) {
+    System.out.println("Wear a jacket.");
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="if-statement">if statement</summary>
+<p><strong>Definition:</strong> Runs a block of code only when its condition is true.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">if (score &gt;= 90) {
+    System.out.println("A");
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="if-else">if / else</summary>
+<p><strong>Definition:</strong> Chooses between two paths.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">if (age &gt;= 18) {
+    System.out.println("Adult");
+} else {
+    System.out.println("Minor");
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="if-else-if-else">if / else if / else</summary>
+<p><strong>Definition:</strong> Checks multiple conditions in order and runs the first matching branch.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">if (score &gt;= 90) {
+    System.out.println("A");
+} else if (score &gt;= 80) {
+    System.out.println("B");
+} else {
+    System.out.println("Below B");
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="nested-if-statement">nested if statement</summary>
+<p><strong>Definition:</strong> An <code>if</code> statement placed inside another conditional statement.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">if (age &gt;= 16) {
+    if (hasPermit) {
+        System.out.println("Can practice driving");
+    }
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="logical-operators">logical operators</summary>
+<p><strong>Definition:</strong> Operators used with booleans: <code>&amp;&amp;</code> means AND, <code>||</code> means OR, and <code>!</code> means NOT.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">boolean canDrive = age &gt;= 16 &amp;&amp; hasPermit;
+boolean canEnter = hasID || hasPass;
+boolean unlocked = !isLocked;
+</code></pre>
+</details>
+
+<details>
+<summary id="compound-boolean-expression">compound boolean expression</summary>
+<p><strong>Definition:</strong> A boolean expression made by combining two or more conditions.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">boolean eligible = age &gt;= 16 &amp;&amp; hasPermit;
+</code></pre>
+</details>
+
+<details>
+<summary id="de-morgans-law">De Morgan's Law</summary>
+<p><strong>Definition:</strong> Rules for rewriting negated compound boolean expressions.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">!(A &amp;&amp; B)  // same as !A || !B
+!(A || B)  // same as !A &amp;&amp; !B
+</code></pre>
+</details>
+
+<details>
+<summary id="for-loop">for loop</summary>
+<p><strong>Definition:</strong> A loop commonly used when initialization, condition, and update can be written together.</p>
+<p><strong>Structure / syntax:</strong></p>
+<pre><code class="language-java">for (initialization; condition; update) {
+    // repeated code
+}
+</code></pre>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">for (int i = 0; i &lt; 5; i++) {
+    System.out.println(i);
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="while-loop">while loop</summary>
+<p><strong>Definition:</strong> A loop that repeats while its condition remains true.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int count = 0;
+while (count &lt; 5) {
+    System.out.println(count);
+    count++;
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="infinite-loop">infinite loop</summary>
+<p><strong>Definition:</strong> A loop that never stops because its condition never becomes false.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int count = 0;
+while (count &lt; 5) {
+    System.out.println(count);
+    // count never changes
+}
+</code></pre>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Classes and Objects
+
+<details>
+<summary id="class">class</summary>
+<p><strong>Definition:</strong> A blueprint that describes the data and behaviors objects of that type can have.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">public class Friend {
+
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="object">object</summary>
+<p><strong>Definition:</strong> A specific object created from a class.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">Friend jasmine = new Friend("Jasmine", 15);
+</code></pre>
+</details>
+
+<details>
+<summary id="instance">instance</summary>
+<p><strong>Definition:</strong> Another name for an object created from a class.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">Friend jasmine = new Friend("Jasmine", 15);
+</code></pre>
+</details>
+
+<details>
+<summary id="instance-field">instance field</summary>
+<p><strong>Definition:</strong> A variable declared in a class that stores information for each object.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">public class Friend {
+    String name;
+    int age;
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="constructor">constructor</summary>
+<p><strong>Definition:</strong> A special part of a class that runs when a new object is created and usually gives it starting values.</p>
+<p><strong>Structure / syntax:</strong></p>
+<pre><code class="language-java">public ClassName(parameters) {
+    // setup code
+}
+</code></pre>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">public Friend(String friendName, int friendAge) {
+    name = friendName;
+    age = friendAge;
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="constructor-parameter">constructor parameter</summary>
+<p><strong>Definition:</strong> A parameter in a constructor that receives a value when a new object is created.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">public Friend(String friendName, int friendAge) {
+    name = friendName;
+    age = friendAge;
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="new-keyword">new keyword</summary>
+<p><strong>Definition:</strong> The keyword used to create a new object from a class.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">Friend jasmine = new Friend("Jasmine", 15);
+</code></pre>
+</details>
+
+<details>
+<summary id="dot-notation">dot notation</summary>
+<p><strong>Definition:</strong> Using a dot after an object name to access one of its fields or methods.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">System.out.println(jasmine.name);
+jasmine.greeting();
+</code></pre>
+</details>
+
+<details>
+<summary id="static-vs-non-static-methods">static vs. non-static methods</summary>
+<p><strong>Definition:</strong> A static method belongs to the class. A non-static method belongs to an object and can directly use that object's instance fields.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">static void classMessage() {
+    System.out.println("Class method");
+}
+
+void greeting() {
+    System.out.println("Hello, " + name);
+}
+</code></pre>
+</details>
+
+<details>
+<summary id="abstraction">abstraction</summary>
+<p><strong>Definition:</strong> Using a simpler name or interface without handling all internal details every time.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">Friend jasmine = new Friend("Jasmine", 15);
+System.out.println(jasmine.name);
+</code></pre>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Useful Java Tools
+
+<details>
+<summary id="math-class">Math class</summary>
+<p><strong>Definition:</strong> A built-in Java class containing useful static math methods and constants.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">double root = Math.sqrt(25);
+double power = Math.pow(2, 3);
+double absolute = Math.abs(-7);
+</code></pre>
+</details>
+
+<details>
+<summary id="math-random">Math.random()</summary>
+<p><strong>Definition:</strong> Returns a random <code>double</code> from 0.0 up to, but not including, 1.0.</p>
+<p><strong>Java example:</strong></p>
+<pre><code class="language-java">int randomNumber = (int) (Math.random() * 10) + 1;
+</code></pre>
+<p>This example creates a random integer from 1 through 10.</p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Code Examples
+
+### Starter Program Example
 
 ```java
 public class Hello {
@@ -199,134 +845,257 @@ public class Hello {
 }
 ```
 
-🧾 Lists
-When to use: Organize steps, notes, or key points.
+### Variables and Updating Values Example
 
-Numbered lists for sequences or steps.
+```java
+int score = 10;
+score = 15;
+System.out.println(score);
+```
 
-Bulleted lists for unordered ideas.
+### Strings and Concatenation Example
 
-✅ Example:
+```java
+String firstName = "Dev";
+String lastName = "Cat";
+System.out.println(firstName + " " + lastName);
+```
 
-1. Define the class
-2. Write the main method
-3. Test your program
+### User Input Example
 
-Variables
-- Loops
-- Conditionals
- 
+```java
+import java.util.Scanner;
 
-✅ Checklists
-When to use: Track progress on assignments or tasks.
+Scanner input = new Scanner(System.in);
+System.out.print("Enter your name: ");
+String name = input.nextLine();
+```
 
-✅ Example:
+### Comparison Operators Example
 
-[x] Complete coding warm-up
-- [ ] Finish project draft
-- [ ] Reflect on learning
+```java
+int score = 85;
+System.out.println(score == 85);
+System.out.println(score != 100);
+System.out.println(score >= 70);
+```
 
- 
+### If Statement Example
 
-➡️ Blockquotes
-When to use: Call out notes, reminders, or teacher comments.
+```java
+if (score >= 90) {
+    System.out.println("A");
+}
+```
 
-✅ Example:
+### If / Else Example
 
-> 💡 Remember: Loops repeat code until a condition is false.
+```java
+if (age >= 18) {
+    System.out.println("Adult");
+} else {
+    System.out.println("Minor");
+}
+```
 
- 
+### If / Else If / Else Example
 
-📊 Tables
-When to use: Compare values, track progress, or organize data neatly.
+```java
+if (score >= 90) {
+    System.out.println("A");
+} else if (score >= 80) {
+    System.out.println("B");
+} else {
+    System.out.println("Below B");
+}
+```
 
-✅ Example:
+### Compound Booleans Example
 
-| Task        | Status   | Notes          |
-|-------------|----------|----------------|
-| Homework 1  | Done ✅  | Submitted      |
-| Homework 2  | Pending  | Needs review   |
+```java
+boolean canDrive = age >= 16 && hasPermit;
+boolean canEnter = hasID || hasPass;
+boolean lockedOut = !hasAccess;
+```
 
- 
+### De Morgan's Law Example
 
-🔗 Links & Images
-When to use: Add references, resources, or visuals.
+```java
+!(A && B)   // same as !A || !B
+!(A || B)   // same as !A && !B
+```
 
-✅ Example:
+### For Loop Example
 
-[Java Docs](https://docs.oracle.com/javase/8/docs/api/)  
-![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
+```java
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
 
- 
+### While Loop Example
 
-📂 Collapsible Sections
-When to use: Hide solutions, extended notes, or extra details.
+```java
+int count = 0;
+while (count < 5) {
+    System.out.println(count);
+    count++;
+}
+```
 
-✅ Example:
+### Arithmetic and Modulus Example
 
-<details>
-  <summary>Click to reveal solution</summary>
-  
-System.out.println("Answer: 42");
+```java
+int total = 7 + 3;
+int product = 7 * 3;
+int remainder = 10 % 3;
+```
 
-</details>
+### Method with Parameters Example
 
- 
+```java
+static void greet(String name) {
+    System.out.println("Hello, " + name);
+}
 
-📝 Footnotes
-When to use: Add references or side notes without cluttering the page.
+greet("Jordan");
+```
 
-✅ Example:
+### Method that Returns a Value Example
 
-This concept is related to object-oriented programming.[^1]
+```java
+static int add(int a, int b) {
+    return a + b;
+}
 
-[^1]: See "Objects and Classes" in your textbook.
+int total = add(4, 6);
+```
 
- 
+### Scope Example
 
-🎯 Style Rules
-Consistency matters more than creativity
+```java
+static void example() {
+    int score = 10;
+}
+// score cannot be used here
+```
 
-Always use headings to structure your notes.
+### Method Overloading Example
 
-Always use code blocks for multi-line code.
+```java
+static void show(int number) { }
+static void show(String text) { }
+```
 
-Clarity first
+### Class with Instance Fields Example
 
-Bold key terms.
+```java
+public class Friend {
+    String name;
+    int age;
+}
+```
 
-Use lists instead of long sentences when outlining steps.
+### Constructor and Object Creation Example
 
-Professional tone
+```java
+public class Friend {
+    String name;
+    int age;
 
-Don’t mix casual notes with formal work in the same section.
+    public Friend(String friendName, int friendAge) {
+        name = friendName;
+        age = friendAge;
+    }
 
-Use blockquotes for reflections or teacher feedback.
+    public static void main(String[] args) {
+        Friend jasmine = new Friend("Jasmine", 15);
+    }
+}
+```
 
-Track your learning
+### Dot Notation and Non-Static Method Example
 
-Use checklists to mark what’s done.
+```java
+public void greeting() {
+    System.out.println("Hello, " + name);
+}
 
-Use collapsible sections if you want to hide answers until review time.
+Friend jasmine = new Friend("Jasmine", 15);
+System.out.println(jasmine.name);
+jasmine.greeting();
+```
 
- 
 
-✅ Bottom Line:
 
-Headings = Structure
 
-Bold/Italic = Emphasis
 
-Code blocks = Code
 
-Lists = Steps/Ideas
 
-Tables = Organization
 
-Checklists = Progress
 
-Blockquotes = Notes/Tips
 
-Collapsible = Hide/Show detail
 
-Keep it simple, consistent, and clear.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Notebook Style Guide
+
+Keep your notebook useful for **you**. Add examples, corrections, and notes as you learn.
+
+- Use `##` for major sections.
+- Use `###` for categories and examples.
+- Use **bold** for important ideas.
+- Use `inline code` for short Java syntax.
+- Use fenced Java code blocks for multi-line examples:
+
+````markdown
+```java
+System.out.println("Hello World!");
+```
+````
+
+- Add comments when they explain **why** something is happening.
+- Keep examples small enough that you can quickly understand them later.
+- When you make a mistake, add the corrected example if it will help you avoid the same mistake again.
+
+### Bottom Line
+
+**Definitions tell you what something means. Code examples show you how to use it. Your notebook should have both.**
+`````
